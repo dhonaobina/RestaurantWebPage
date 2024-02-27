@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Navigation Section */
+.navbar {
+    position: relative;
+    background-color:#f7f7f7;  
+}
+
+.nav-item {
+    margin-bottom: 5px;
+    margin-left: 80px;
+    font-size: 1.3rem; 
+}
+
+.btn {
+    text-shadow: 1px 1px 2px #f7f7f7;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("./src/img/lovehealthy.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3.0rem;
+    margin-bottom: 1.5rem;
+    color: #f7f7f7;
+  
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+    color: #f7f7f7;
+    text-shadow: #fff;
+    
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    /* Apply text emphasis */
+    text-emphasis: filled circle #F7f7f7; /* Yellow filled circle */
+    text-shadow: 1px 1px 2px rgba(0, 0, 255, 0.366), 0 0 1em rgb(0, 255, 38), 0 0 0.2em rgba(162, 255, 0, 0.514);
+}
+
+.hero-tagline {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 255, 0.366), 0 0 1em rgb(0, 255, 38), 0 0 0.2em rgba(162, 255, 0, 0.514);
+}
+
+.main-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px 0;
+    border: 1px solid #ccc; 
+    
+}
+
+img  {
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
